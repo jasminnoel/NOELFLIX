@@ -1,0 +1,122 @@
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+	position: relative;
+	min-height: 100%;
+  }
+}
+body {
+  padding-top: 5rem;
+}
+form h1 {
+    text-align: center;
+}
+.custom-radio {
+    display:inline;
+    margin-left:15px;
+}
+/* Carousel base class */
+.carousel {
+  margin-bottom: 15px;
+  margin-top:-24px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 24rem;
+  background-color: #777;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 24rem;
+  filter: brightness(60%);
+}
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.card{
+    width:12rem;
+}
+.large-card{
+    width:60%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.card-body{
+    padding:10px;
+}
+.card p{
+    margin:1px;
+}
+li .btn {
+    margin-left: 6px;
+}
+.btn {
+    padding: 5px;
+}
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 120px;
+}
+.material-icons{
+	font-size:20px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+main{
+    margin-bottom:15px;
+}
+.modal-body{
+    padding: 0;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Set the fixed height of the footer here */
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}

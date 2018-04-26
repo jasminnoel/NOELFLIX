@@ -1,0 +1,41 @@
+Par Jasmin Noël
+Date : 23 février 2018
+Collège Ahuntsic
+
+Projet de gestion de film
+Technologies côté client : HTML;CSS;JAVASCRIPT;BOOTSTRAP;JQUERY;GOOGLE APIS;;
+Technologies côté serveur : Apache;MySQL;PHP;;
+
+Mandat : Il fallait monter un système multipage (synchrone) de gestion de film incluant :
+-Gestion des utilisateurs et module de connexion/inscription;
+-Interface administrateur et module CRUD pour gérer les films;
+-Affichage dynamique des films à partir de la BD. Intégration de la bande-annonce et de fichier image pour la pochette;
+-Panier d'achat dynamique permettant d'afficher la sélection, de modifier la sélection et de confirmer son achat;
+
+Structure : 
+-BD
+---Fichier de connection.inc.php
+---Fichier de sauvegarde de la BD.sql
+-bootstrap
+---Fichiers sources de bootstrap
+-css
+---Fichier CUSTOM.CSS
+-js
+---Fichier GLOBAL.js
+---Fichier source JQUERY.js
+-media
+---Images et icônes.jpg
+-php
+---Pages du site.php
+-pochettes
+---Images ajoutées dynamiquement et référencées dans la BD
+-index.php
+-Lisez moi.txt
+
+Passage des données : 
+J'ai choisi de passer les données strictement par des formulaires et des paramètres incluts dans l'URL.
+
+
+Connexions dans le système : 
+-username:admin  -motdepasse:admin;
+-username:user  -motdepasse:user;
